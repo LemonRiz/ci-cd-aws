@@ -1,13 +1,11 @@
 # CI CD Jenkins -> AWS
 
 ​
-Give a brief overview of the project.
+This project used basic CICD principles via AWS and Jenkins to allow the deployment of a webpage, and continuously develop it. I built a testing environment in Jenkins that runs tests whenever the feature-branch of this repository is pulled, pushed, or merged. If the test succeeds, the modifications on the feature-branch are merged with the main branch. Shell commands implemented via Jenkins allows for the deployment of the webpage after successful tests occur.
 ​
 
 ## Demo
 
-​
-Research how you can create Gifs from screen recordings, demo the following:
 ​
 
 - CI
