@@ -35,7 +35,7 @@ echo -------------- Restart Apache ------------------
 sudo systemctl reload apache2
 
 echo --------------- Move into App Folder -----------
-cd /homne/ubuntu/app
+cd /home/ubuntu/app
 pwd
 
 echo -------------- Install Dependancies ------------
