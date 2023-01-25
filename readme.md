@@ -40,7 +40,7 @@ I set up a new item on Jenkins with the Github project settings enabled, and pro
 ### How did you get the Github repo to trigger the build?
 
 I added the option on Jenkins to allow Github source code management using a private SSH key.
-Then I implemented a github webhook and provided the Jenkins URL. Whenever events occured on Jenkins (Pull/Push/Merge etc) this would trigger a new build.
+Then I implemented a github webhook and provided the Jenkins URL. Whenever events occured on Jenkins (Pull/Push/Merge etc) this would trigger a new build. There is a postbuild option that then triggers the CD builder.
 
 ## ​
 
