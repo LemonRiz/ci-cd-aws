@@ -8,6 +8,7 @@ Research how you can create Gifs from screen recordings, demo the following:
 ​
 - CI
   - Make a change to the project on your feature branch -> push changes to repo
+  made a change
   - Show pipeline running in Jenkins -> Show main branch has been updated
 - CD
   - Make a change to the project on your feature branch -> push changes to repo
