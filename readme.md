@@ -47,15 +47,13 @@ Then I implemented a github webhook and provided the Jenkins URL. Whenever event
 ​
 
 ## How have you used Jenkins to add Continuous delivery with this project?
-Jenkins added continuous delivery using the shell commands which build the webpage for deployment.
+Jenkins added continuous delivery using the shell commands which build the webpage for deployment. I also added the EC2 public IP to the nology-proxy.conf file as the server name.
 
 ​
 
 ### How did you allow Jenkins access to the EC2 instance?
 On EC2 I selected my instance and changed it's security groups. I added the "jenkinsdeployment" security group option.
-I enabled the SSH agent in the Jenkins Build Environment and added our private key for AWS to jenkins, allowing Jenkins to access the ubuntu VM.
-
-I also added the EC2 public IP to the nology-proxy.conf file as the server name. 
+I enabled the SSH agent in the Jenkins Build Environment and added our private key for AWS to jenkins, allowing Jenkins to access the ubuntu VM hosted on AWS.
 
 
 ### How did you get the CI project to trigger the CD build?
