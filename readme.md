@@ -59,5 +59,5 @@ I also added the EC2 public IP to the nology-proxy.conf file as the server name.
 
 
 ### How did you get the CI project to trigger the CD build?
-When a test build was successful on CI, a postbuild action to build other projects on Jenkins would occur, and build the CD project. If the build is stable, this pushes the changes made on the feature-branch and merges them with main branch. The main branch is deployed and accessible to an end user with the EC2 public IP.
+When a test build was successful on CI, a git publisher action would occur, and build the CD project. If the build is stable, this pushes the changes made on the feature-branch and merges them with main branch. The main branch is deployed and accessible to an end user with the EC2 public IP.
 ## ​
